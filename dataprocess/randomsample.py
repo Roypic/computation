@@ -27,4 +27,6 @@ def moveFile(resourcedir,labeldir,resourcedirnew,labeldirnew):
             shutil.move(pathjoin(labeldir , name), pathjoin(labeldirnew , name))
 
 if __name__ == "__main__":
-    moveFile(resourcedir, labeldir, resourcedirnew, labeldirnew)
+    #moveFile(resourcedir, labeldir, resourcedirnew, labeldirnew)
+    teststring="mask_wave0001.bmp"
+    print(int(teststring.split('.')[0].split('e')[1]))
